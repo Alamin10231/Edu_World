@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!--cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--cdn link-->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--animation-->
+   
+</head>
+
+<body>
+    <div class="contain">
+        <header id="header" class="top-0 left-0  drop-shadow-md bg-transparent py-4 w-full fixed text-white">
+            <nav id="navbar" class="flex items-center justify-between mx-4">
+                <div class="flex items-center justify-center space-x-3">
+                    <i class="fa-solid fa-building-columns text-xl "></i>
+                    <p class="text-xl" id="practice">EduWorld</p>
+                </div>
+                <div class=" ">
+                    <div class="flex items-center justify-center space-x-2 mx-3">
+                        <div class="">
+                            <i class="fa-solid fa-bars text-xl md:hidden cursor-pointer" id="hamburger"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-xmark text-xl absolute top-4  md:hidden z-50 hidden  " id="closeicon"></i>
+                        </div>
+                    </div>
+                    
+                       
+                    
+                  <div class="w-full  md:bg-transparent  absolute md:relative  bg-transparent  top-0 left-0 mx-auto items-center text-center py-4  md:py-0 hidden md:block -z-index: 10 md:bg-none bg-gradient-to-r from-blue-950 to-blue-800" id="navmenu">
+
+                 
+                    <ul class="md:flex space-x-3 md:text-center  cursor-pointer " >
+                        <li><a class="relative navme inline-block hover:border-b-2  duration-100  border-transparent hover:border-blue-500 pb-1"
+                                href="index.html">HOME</a></li>
+                        <li><a class="relative navlink inline-block hover:border-b-2  duration-100  border-transparent hover:border-blue-500 pb-1"
+                                href="About.html">ABOUT</a></li>
+                        <li><a class="relative navlink inline-block hover:border-b-2  duration-100  border-transparent hover:border-blue-500 pb-1"
+                                href="Course.html">COURSE</a></li>
+                        <li><a class="relative navlink inline-block hover:border-b-2  duration-100  border-transparent hover:border-blue-500 pb-1"
+                                href="Blog.html">BLOG</a></li>
+                        <li><a class="relative navlink inline-block hover:border-b-2  duration-100  border-transparent hover:border-blue-500 pb-1"
+                                href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class=" frontpic text-white items-center justify-center text-center">
+            <img
+                class=" aboutpic max-w-full h-[800px] w-full sm:h-[700px] md:h-[600px]  object-cover bg-no-repeat rounded-lg">
+        </div>
+        <div
+            class=" absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white font-semibold text-lg ">
+            <h1
+                class="text-4xl w-full md:text-5xl lg:text-6xl font-satisfy animate__animated animate__backInDown animate__repeat-1 line-clamp-3 ">
+                Our Cirtificate & Online Program 2024</h1>
+
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 container w-full md:mx-auto py-20 md:my-24 text-start px-2">
+            <div class="rightside">
+                <img class=" rounded-lg md:h-[450px] md:w-[550px] items-center justify-center mx-auto "
+                    src="./img/about.jpg" alt="">
+            </div>
+            <div class="leftside md:mx-auto relative ">
+                <BUTton class="bg-pink-600 text-white w-full p-2   my-4 md:my-0 md:mb-4 rounded-md ">Post catagories</BUTton>
+                <div class="grid grid-cols-2 items-center justify-between  w-full">
+                    <div class="leftside ">
+                        <ul>
+                            <li>Business Analysis</li>
+                            <li>Data Science</li>
+                            <li>machine Learning</li>
+                            <li>Comupter Science</li>
+                            <li>Auto Cad</li>
+                            <li>Journalism</li>
+                            <li>Commerce</li>
+                        </ul>
+                    </div>
+                    <div class="rightside text-end">
+                        <ul>
+                            <li>28</li>
+                            <li>25</li>
+                            <li>40</li>
+                            <li>30</li>
+                            <li>12</li>
+                            <li>33</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+        <div class="md:mx-auto container px-4">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl py-3 md:py-4 lg:py-6 text-wrap text-center">Our certificate & Online Program 2024</h1>
+            <p class="text-balance  justify-center text-lg md:text-xl ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque recusandae odio sed ea, eius inventore magnam enim! Corrupti a esse, assumenda vero mollitia consectetur incidunt distinctio possimus repudiandae libero dolores fugiat quibusdam pariatur, expedita harum facilis delectus accusamus suscipit, deserunt natus quod molestias! Alias at illum rerum tempora tenetur omnis magni, ipsa sit dignissimos assumenda quae voluptate minima mollitia deserunt amet ducimus, necessitatibus cumque, aspernatur architecto eligendi quam cum. In adipisci tenetur expedita, cumque quia molestias sunt minus nulla, fuga qui doloribus, distinctio quod dicta cupiditate. Sequi adipisci quis consectetur eaque quaerat vel architecto? Quasi, consequatur non impedit quis perspiciatis reprehenderit nemo, earum sunt minima officia, exercitationem tempora. Corporis, provident eius. Nulla hic rem, esse asperiores architecto sunt molestias nisi eos porro eius, dignissimos eum mollitia corporis amet reiciendis earum, vitae quia libero accusantium. Rerum ut obcaecati, dolor qui excepturi, hic, quaerat neque adipisci asperiores vero consequatur velit nostrum? Alias voluptates dolor quaerat incidunt in quia, itaque totam fugiat quod impedit error dolorem vero iusto nisi quisquam minima. Id in repellat aliquid reiciendis ipsam impedit nulla, eos, illum expedita itaque eveniet cupiditate hic fuga omnis corrupti amet et laborum! Aperiam harum, sit exercitationem non nisi nemo numquam nulla ipsum vero? Magnam ipsam quasi impedit cupiditate dolor reprehenderit eaque nesciunt odit. Accusamus quis facere aperiam voluptatibus, tempora porro reiciendis neque minus aut. Omnis sunt, in aspernatur rerum sint amet animi iste nam. Obcaecati sint mollitia ab amet laudantium laborum quibusdam aspernatur accusamus voluptatem maxime soluta quis nobis voluptas, cupiditate earum consectetur accusantium dolores, deserunt ipsum! Rem corporis commodi deserunt sequi exercitationem iusto laudantium officiis minima quia, at beatae iste doloremque ipsa accusantium voluptatum. Debitis unde iusto architecto earum consequatur culpa nam cumque, adipisci id tempora quasi fugit dolorem non tenetur, magni nisi soluta. Magnam quibusdam necessitatibus quidem at? Recusandae sint praesentium ullam non assumenda dolores perspiciatis quis quasi, deleniti at dolor odio excepturi ratione, dicta sit, itaque obcaecati numquam doloremque voluptates qui nesciunt aut eligendi? Ad maiores repellat reiciendis voluptas voluptates voluptatibus similique provident consectetur maxime nesciunt temporibus perspiciatis quas iure expedita, eveniet minima architecto. Minus quia itaque ipsum neque assumenda, aperiam ducimus id ratione, omnis tenetur repellendus. Quasi quis tempore ex, ipsa ut consequuntur cumque similique et doloremque consequatur repudiandae doloribus ipsum maxime in omnis sapiente enim dolorem sunt adipisci sequi explicabo iusto quas! Porro deleniti libero aperiam eum voluptatibus suscipit itaque optio recusandae natus. </p>
+        </div>
+         <!--form start-->
+         <div class=" md:w-[50%] container mx-auto my-10 ">
+            <form action="" class="border-2 p-10 rounded-sm shadow-lg ">
+                <h1 class=" text-xl md:text-2xl">Leave A Comment</h1>
+                 <div class=" md:grid  ">
+                    <input class="border-2 w-full md:w-96 py-1 bg-gray-200 my-4 rounded-sm text-start" type="text" placeholder="Enter Name " required>   
+                    <input class="border-2 my-4 py-1 w-full md:w-96 bg-gray-200 rounded-sm text-start" type="email" placeholder="Enter Email" required>
+                    
+                    <textarea class="bg-gray-200 py-1 my-4 w-full md:w-96" id="message" name="message" rows="4" required placeholder="Your Comment"></textarea>
+                 </div>
+                 <BUTton class="bg-pink-600 text-white w-24 p-2   my-4 md:my-0 md:mb-4 rounded-md ">Submit</BUTton>
+                  
+            </form>
+        </div>
+        
+        <!--form end-->
+        <!--About section-->
+        <div class="text-center py-20">
+            <div class="text-center">
+                <h1 class="text-2xl md:text-3xl lg:text-4xl font-semibold py-4">ABOUT US</h1>
+                <p class="text-md md:text-xl lg:text-2xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
+                    est obcaecati in ratione
+                    cupiditate ipsam.</p>
+
+            </div>
+            <div class="social icon space-x-7 py-3 ">
+                <i class="fa-brands fa-instagram text-xl text-pink-500"></i>
+                <i class="fa-brands fa-facebook text-xl text-blue-800"></i>
+                <i class="fa-brands fa-linkedin text-xl text-blue-600"></i>
+                <i class="fa-brands fa-twitter text-xl text-blue-400"></i>
+            </div>
+            <div class="link text-center">
+                <p class="text-xl md:text=2xl">made by alamin</p>
+            </div>
+        </div>
+        <!--About section end-->
+
+        <script src="script.js"></script>   
+</body>
+
+</html>
